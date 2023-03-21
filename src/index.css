@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+:root {
+  --very-gris: #4a4a5a;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+html,
+body {
+  font-size: var(--lg);
+  background-color: var(--very-gris);
+}
+
+.App {
+  text-align: center;
+  color: red;
+}
